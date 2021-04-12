@@ -1,0 +1,12 @@
+{
+  "auths": {
+    "quay.io": {
+      "auth": "FILL IN FROM QUAY.IO SITE",
+      "email": "email-here"
+    }, 
+    "docker.io": {
+      "auth": "docker-password-here",
+      "email": "email-here"
+    }
+  }
+}
