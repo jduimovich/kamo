@@ -10,7 +10,7 @@ if %ERRORLEVEL% NEQ 0   (
 )
 
 set SVC=%1
-set GITOPS_REPO=gt-app
+set GITOPS_REPO=%2
 
 set RUN_THIS=kam service add ^
   --service-name %SVC%-service ^
